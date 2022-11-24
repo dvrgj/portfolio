@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: rebeccapurple;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: whitesmoke;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: blueviolet;
+    transition: .4s;
+}
+.btn{
+    background-color: white;
+    color: rgb(15, 82, 170);
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    background-color: red;
+    transform: scale(1.1,1.1);
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+h1{
+    color: rgb(17, 103, 173);
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+h1:hover{
+    color: rgb(197, 21, 21);
+}
+h2{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 25px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: whitesmoke;
+}
+.newsletter form input:last-child{
+    display: inline-block;
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(231, 77, 103);
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: burlywood;
+}
+.about-text{
+    width: 500px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: rgb(206, 154, 13);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h3{
+    color: rgb(163, 27, 34);
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 22px;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+.about-text{
+    color:rebeccapurple;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.con{
+    color: rgb(187, 33, 123);
+}
+button{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.services{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(218, 198, 198);
+    border-radius: 60px;
+    margin: 15px;
+    position: relative;
+}
+.card i{
+    font-size: 50px;
+    display: black;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(32, 12, 44);
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+}
+h5{
+    color: rgb(184, 26, 99);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: black;
+    margin-bottom: 25px;
+    line-height: 27px;
+    font-size: 16px;
+}
+.card:hover{
+    background-color: burlywood;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.port{
+    background: #1eb9a0;
+    width: 100%;
+    padding: 100px 0px;
+}
+.port h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer :nth-child(1){
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer :nth-child(2){
+    font-size: 17px;
+    width: 800px;
+    text-align: center;
+    line-height: 20px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 80px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.social a:hover{
+    transform: scale(1.5,1.5);
+    transition: .3s;
+}
+.end{
+    color: red;
+    bottom: 35px;
+    font-size: 14px;
+
+}
